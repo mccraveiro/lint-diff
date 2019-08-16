@@ -1,9 +1,11 @@
 {
-  "name": "lint-diff",
-  "version": "1.2.0",
+  "name": "@mccraveiro/lint-diff",
+  "version": "1.2.2",
   "description": ":nail_care: Run eslint only in the changed parts of the code",
   "main": "./dist/lint-diff.js",
-  "bin": "./dist/lint-diff.js",
+  "bin": {
+    "lint-diff": "./dist/lint-diff.js"
+  },
   "scripts": {
     "build": "webpack",
     "lint": "eslint 'src/**/*.js'",
